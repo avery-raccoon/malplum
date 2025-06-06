@@ -1,0 +1,23 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://dale-solo-nails-package.trycloudflare.com/sitemap.xml
+Allow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /user/delete
+Disallow: /dbdump/
+Disallow: /backup/
+Disallow: /export/
+Disallow: /login.php
+Disallow: /verify.php
+Disallow: /form/submit.php
+
+# Sensitive API endpoints – DO NOT INDEX
+Disallow: /api/userinfo.php
+Disallow: /api/token-check.php
+Disallow: /api/v1/lookup
+Disallow: /api/internal/resolve.php
+
+# You really shouldn't crawl this.
+Disallow: /trap/
