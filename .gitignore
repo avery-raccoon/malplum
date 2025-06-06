@@ -1,0 +1,15 @@
+# Editor files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# System files
+.env
