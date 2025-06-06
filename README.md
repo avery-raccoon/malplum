@@ -31,5 +31,15 @@ Clone or copy `index.php` into a publicly accessible directory:
 ```bash
 git clone https://github.com/YOURUSERNAME/malplum.git
 sudo cp malplum/index.php /var/www/html/index.php
+```
 
+## 🧪 Tests
 
+Run the test suite with PHP CLI installed. You can run the script directly from
+the project root or from inside the `tests` directory:
+
+```bash
+php tests/test_index.php
+# or
+cd tests && php test_index.php
+```
