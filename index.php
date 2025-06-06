@@ -3,13 +3,13 @@ declare(strict_types=1);
 header('Content-Type: application/json');
 
 // --- Fake data pools ---
-$usernames = ['sunnydog', 'glimmerfox', 'tinyhero', 'spiderfriend', 'weirdunit', 'fluffomatic', 'doomy', 'webmaster'];
+$usernames = ['sunnydog', 'glimmerfox', 'tinyhero', 'spiderfriend', 'weirdunit', 'fluffomatic', 'doomy', 'webmaster', 'admin'];
 $domains = ['gmail.com', 'yahoo.com', 'hotmail.com', 'protonmail.com', 'live.com'];
 
 $first_names = ['Alex', 'Jamie', 'Morgan', 'Taylor', 'Riley', 'Jordan', 'Casey'];
-$last_names = ['Rivera', 'Patel', 'Nguyen', 'Smith', 'Khan', 'Garcia', 'O’Neil'];
+$last_names = ['Rivera', 'Patel', 'Nguyen', 'Smith', 'Khan', 'Garcia', 'O’Neil', 'Miller', 'Cortando'];
 
-$cities = ['Toronto', 'Portland', 'Berlin', 'Osaka', 'Cape Town', 'Reykjavik', 'Sydney', 'San Francisco', 'Boston', 'Dallas'];
+$cities = ['Toronto', 'Ottawa', 'Vancouver', 'Portland', 'Berlin', 'Osaka', 'Cape Town', 'Reykjavik', 'Sydney', 'San Francisco', 'Boston', 'Dallas'];
 $countries = ['Canada', 'USA', 'UK', 'Japan', 'Germany', 'Australia'];
 
 $statuses = ['active', 'pending', 'suspended'];
