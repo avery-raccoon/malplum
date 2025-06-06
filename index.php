@@ -2,18 +2,18 @@
 header('Content-Type: application/json');
 
 // --- Fake data pools ---
-$usernames = ['sunnydog', 'glimmerfox', 'tinyhero', 'spiderfriend', 'weirdunit', 'fluffomatic'];
+$usernames = ['sunnydog', 'glimmerfox', 'tinyhero', 'spiderfriend', 'weirdunit', 'fluffomatic', 'd00my', 'alphabro', 'webmaster'];
 $domains = ['gmail.com', 'yahoo.com', 'hotmail.com', 'protonmail.com', 'live.com'];
 
-$first_names = ['Alex', 'Jamie', 'Morgan', 'Taylor', 'Riley', 'Jordan', 'Casey'];
-$last_names = ['Rivera', 'Patel', 'Nguyen', 'Smith', 'Khan', 'Garcia', 'O’Neil'];
+$first_names = ['Alex', 'Jamie', 'Morgan', 'Taylor', 'Riley', 'Jordan', 'Casey', 'Mohammed', 'David', 'Ash', 'Bob'];
+$last_names = ['Rivera', 'Patel', 'Nguyen', 'Smith', 'Khan', 'Garcia', 'O’Neil', 'Miller', 'Peterson'];
 
 $cities = ['Toronto', 'Portland', 'Berlin', 'Osaka', 'Cape Town', 'Reykjavik', 'Sydney'];
-$countries = ['Canada', 'USA', 'UK', 'Japan', 'Germany', 'Australia'];
+$countries = ['Canada', 'USA', 'UK', 'Japan', 'Germany', 'Australia', 'Monaco', 'Djibouti'];
 
-$statuses = ['active', 'pending', 'suspended'];
+$statuses = ['active', 'pending', 'suspended', 'full'];
 $sources = ['referral', 'popup_ad', 'newsletter', 'affiliate_link', 'qr_code'];
-$interests = ['vegan_baking', 'crypto', 'knitting', 'parkour', 'karaoke', 'doom_modding'];
+$interests = ['vegan_baking', 'crypto', 'knitting', 'parkour', 'karaoke', 'doom_modding', 'investing', 'cooking'];
 
 function random_subset($array, $max = 3) {
     shuffle($array);
