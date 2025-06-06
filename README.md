@@ -1,7 +1,5 @@
 # malplum
-Malplum is a poisoned JSON API that serves synthetic user data to spambot crawlers. Every request returns randomized, plausible nonsense—emails, tokens, preferences, and more. Designed for public exposure, Malplum pollutes data harvesting operations with sweet-looking, structured garbage.
-
-> "Let them eat garbage."
+Malplum is a poisoned JSON API that serves synthetic user data to spambot crawlers. Every request returns randomized, plausible nonsense—emails, tokens, preferences, and more. Designed for public exposure, Malplum pollutes data harvesting operations with sweet-looking, structured garbage. Feed them garbage, with the help of Malplum!
 - Khan Noonien Singh, probably
 
 **Malplum** is a poisoned JSON API designed to pollute the data streams of spambots and web scrapers. Every request serves plausible, randomized user data—emails, tokens, fake names, preferences, and more—all completely synthetic and deliciously useless.
