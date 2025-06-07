@@ -15,7 +15,7 @@ Malplum is a single PHP endpoint that:
 
 The result: structured, convincing, and **absolutely worthless** data, seeded into the wild to poison unethical data harvesters.
 
-Futre versions / aspirational goals include:
+Future versions / aspirational goals include:
   - Generate massive amounts of data to dilute any real information scraped
   - Vary the data quality - mix some "premium looking" records with obvious junk
   - Include different confidence levels of fake data to waste analysis time
@@ -27,7 +27,7 @@ Futre versions / aspirational goals include:
   - Include some "real looking" patterns mixed with nonsense
   - Add realistic error rates and edge cases in the data
   - Canary tokens to show the who & what (& when)
-  - 
+  - ??
 
 ---
 
