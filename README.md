@@ -1,7 +1,7 @@
 # malplum
 Malplum is a poisoned JSON API that serves synthetic user data to spambot crawlers. Every request returns randomized, plausible nonsense—emails, tokens, preferences, and more. Designed for public exposure, Malplum pollutes data harvesting operations with sweet-looking, structured garbage. Feed them garbage, with the help of Malplum! Every request serves plausible, randomized user data—emails, tokens, fake names, preferences, and more—all completely synthetic and deliciously useless.
 
-The name *Malplum* is a constructed Latinism: **malus** (bad, evil) + **prunum** (plum), a nod to *bad fruit* and *bad luck*. It draws direct inspiration from [Devin Carraway's Sugarplum project](https://github.com/dcaraway/sugarplum), expanding the concept with dynamic content and a whimsical mean streak.
+The name *Malplum* is a constructed Latinism: **malus** (bad, evil) + **prunum** (plum), a nod to *bad fruit* and *bad luck*. It draws direct inspiration from [Devin Carraway's Sugarplum project]((https://devin.com/sugarplum/)), expanding the concept with dynamic content and a whimsical mean streak.
 
 ---
 
