@@ -1,4 +1,4 @@
-<<?php
+<?php
 /**
  * Malplum – Fake PII Data API (v1) with Fault Injection
  */
