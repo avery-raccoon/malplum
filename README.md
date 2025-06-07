@@ -17,6 +17,20 @@ Malplum is a single PHP endpoint that:
 
 The result: structured, convincing, and **absolutely worthless** data, seeded into the wild to poison unethical data harvesters.
 
+Futre versions / aspirational goals include:
+  - Generate massive amounts of data to dilute any real information scraped
+  - Vary the data quality - mix some "premium looking" records with obvious junk
+  - Include different confidence levels of fake data to waste analysis time
+  - Include data types that specific bot categories find valuable (email lists, user credentials, financial info)
+  - Add metadata that suggests this is "internal" or "premium" data
+  - Use realistic-looking API endpoints or database dump formats
+  - Serving different datasets to different IP ranges
+  - Vary the response time and data structure randomly
+  - Include some "real looking" patterns mixed with nonsense
+  - Add realistic error rates and edge cases in the data
+  - Canary tokens to show the who & what (& when)
+  - 
+
 ---
 
 ## 🚀 Setup
